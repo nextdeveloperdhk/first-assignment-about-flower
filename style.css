@@ -89,3 +89,26 @@
 .card3-color{
     background-color: #e3ebdb;
 }
+
+/* Delivery section */
+.delivery-section{
+    width: 65%;
+    margin:100px auto;
+    background-color: rgba(163, 163, 163, 0.651);
+    border-radius: 5px;
+    padding: 50px 20px;
+    
+}
+.delivery-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.delivery-image{
+    width: 70px;
+    display: block;
+    margin: auto;
+}
+.delivery-details{
+    text-align: center;
+    margin-top: 15px;
+}
