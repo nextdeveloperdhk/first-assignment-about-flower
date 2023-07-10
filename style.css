@@ -35,3 +35,57 @@
     width: 455px;
     height: 550px;
 }
+/* Features section */
+.features-section{
+    margin-top: 100px;
+}
+.feature-details{
+    width: 40vw;
+    padding: 20px 100px;
+    margin: auto;
+    
+}
+.feature-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.feature-description{
+    font-size: 16px;
+    padding-top: 24px;
+    text-align: center;
+}
+.features-cards{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.cards-container{
+    width: 300px;
+    height: 330px;
+}
+.card{
+    
+    background-color:#f2dee7;
+    border-radius: 45% 45% 0 0;
+    padding: 30px 40px;
+    
+}
+.card-image{
+    width: 100%;
+    height: 300px;
+}
+.flower-name{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card2-color{
+    background-color: #d9eff1;
+}
+.card3-color{
+    background-color: #e3ebdb;
+}
