@@ -66,12 +66,12 @@
 .features-cards{
     width: 70%;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
 }
 .cards-container{
-    width: 300px;
+    width: 280px;
     height: 330px;
 }
 .card{
@@ -101,7 +101,7 @@
 .delivery-section{
     width: 65%;
     margin:120px auto 50px;
-    background-color: rgba(163, 163, 163, 0.651);
+    background-color: rgba(189, 188, 188, 0.651);
     border-radius: 5px;
     padding: 50px 25px;
     
@@ -184,6 +184,7 @@
     margin-top: 50px;
     
 }
+
 .flower-card{
     width: 230px;
     height: 280px;
@@ -194,8 +195,19 @@
 
 .flower-card-img{
     width: 100%;  
-    box-shadow: 0px 0px 10px black;
     border-radius: 10px;
+}
+.shadow1{
+    box-shadow: 5px 5px 10px #696767;
+}
+.shadow2{
+    box-shadow: 5px 5px 10px #6d584a;
+}
+.shadow3{
+    box-shadow: 5px 5px 10px #b36449;
+}
+.shadow4{
+    box-shadow: 5px 5px 10px #92847c;
 }
 
 /* Latest deals */
@@ -206,14 +218,15 @@
 .latest-deals{
     width: 100%;
     height: 280px;
-    border: 1px solid black;
-    background-image: url('images/Rectangle\ 9.png');
+    background-image: url('images/Rectangle\ 9.png'),  linear-gradient(#ff00004a, #ffff0026, #00800054);
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 .deals-details{
     width: 70%;
