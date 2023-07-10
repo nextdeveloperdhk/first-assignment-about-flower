@@ -112,3 +112,40 @@
     text-align: center;
     margin-top: 15px;
 }
+/* deal section */
+.deal-container{
+    background-color: #f2dee7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.deal-details{
+    width: 50%;
+    
+}
+.deal-title{
+    font-size: 25px;
+    text-align: center;
+}
+.deal-save{
+    color: red;
+}
+.deal-description{
+    font-size: 18px;
+    padding: 20px 0;
+    text-align: center;
+}
+.deal-image{
+    width: 455px;
+    height: 550px;
+}
+.deal-img{
+    width: 300px;
+    height: 380px;
+    padding-top: 80px;
+}
+.deal-btn{
+    display: block;
+    margin: auto;
+}
