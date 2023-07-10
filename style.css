@@ -96,7 +96,7 @@
     margin:100px auto;
     background-color: rgba(163, 163, 163, 0.651);
     border-radius: 5px;
-    padding: 50px 20px;
+    padding: 50px 25px;
     
 }
 .delivery-cards{
@@ -118,10 +118,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
+    padding: 20px 80px;
 }
 .deal-details{
     width: 50%;
+    margin: auto;
     
 }
 .deal-title{
@@ -133,12 +134,14 @@
 }
 .deal-description{
     font-size: 18px;
-    padding: 20px 0;
+    padding: 25px 40px;
     text-align: center;
+    width: 80%;
+    margin: auto;
 }
 .deal-image{
-    width: 455px;
-    height: 550px;
+    width: 400px;
+    height: 500px;
 }
 .deal-img{
     width: 300px;
@@ -211,11 +214,41 @@
 }
 .deals-description{
     font-size: 20px;
-    padding: 15px 0;
+    padding: 15px 0px;
     text-align: center;
+    
 }
 input[type = "text"]{
     padding: 9px 8px;
     width: 400px;
     margin-left: 80px;
+}
+/* footer */
+footer{
+    background-color: black;
+    width: 100vw;
+    margin-top: 50px;
+}
+.footer-details{
+    width: 50%;
+    margin: auto;
+    color: white;
+    padding: 50px 30px;
+}
+.footer-title{
+    font-size: 35px;
+    text-align: center;
+}
+.footer-flower{
+    color: red;
+}
+.footer-description{
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 0;
+    line-height: 30px;
+}
+.footer-copyright{
+    text-align: center;
+    color: grey;
 }
